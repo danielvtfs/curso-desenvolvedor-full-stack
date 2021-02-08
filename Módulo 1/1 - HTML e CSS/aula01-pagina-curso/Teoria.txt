@@ -1,0 +1,34 @@
+HTML (Hypertext Markup Language) ou em portugês (Linguagem de Marcação de Hipertexto) 
+é o código que você usa para estruturar uma página web e seu conteúdo.
+
+O que é HTML?
+HTML não é uma linguagem de programação; é uma linguagem de marcação, usada 
+para definir a estrutura do seu conteúdo. HTML consiste de uma série de elementos, 
+vejamos na foto um exemplo.
+
+
+principais tags:
+<p> parágrafos.
+<h1> ao <h6> títulos.
+<span> trechos a serem destacados.
+<div> divisões da página.
+<img> definição de imagens.
+<table> <tr> <td> definição de tabelas, linhas e colunas.
+<ul> <li> listas e itens de lista.
+<strong> e <em> ênfase no texto.
+<a> âncoras (links).
+
+Vamos criar nossa primeira página HTML.
+
+====================================================================
+
+CSS:
+
+CSS (Cascading Style Sheets) ou em portugês (Folha de Estilo em Cascata)
+é o código que você usa para dar estilo à sua página Web.
+
+o que realmente é CSS?
+Assim como o HTML, o CSS não é realmente uma linguagem de programação. Também não é 
+uma linguagem de marcação  — é uma linguagem de folhas de estilos. Isso significa que 
+o CSS permite aplicar estilos seletivamente a elementos em documentos HTML.
+vejamos na foto um exemplo.
