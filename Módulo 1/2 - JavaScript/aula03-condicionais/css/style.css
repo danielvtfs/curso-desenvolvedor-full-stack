@@ -1,0 +1,18 @@
+body {
+  background-color: aquamarine;
+}
+
+.painel {
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.primeiro {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.segundo {
+  margin-right: 20px;
+}
