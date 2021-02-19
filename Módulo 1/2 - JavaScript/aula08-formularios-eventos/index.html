@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+
+    <form action="cadastro.html">
+      <p>
+        Nome:
+        <input type="text" id="input1" placeholder="Digite seu nome" />
+      </p>
+      <p>
+        E-mail:
+        <input type="email" id="input2" placeholder="Digite seu e-mail" />
+      </p>
+      <p>
+        Nascimento:
+        <input type="date" id="input3" />
+      </p>
+      <p>
+        Maior de idade?
+        <input type="checkbox" id="input4" />
+      </p>
+
+      <p>
+        Masculino
+        <input type="radio" name="opcao" id="input5" />
+        Feminino
+        <input type="radio" name="opcao" id="input6" />
+      </p>
+
+      <p>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Descrição"
+        ></textarea>
+      </p>
+
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
