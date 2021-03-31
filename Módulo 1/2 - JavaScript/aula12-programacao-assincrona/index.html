@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programação assíncrona</title>
+  </head>
+  <body>
+    <button>clique aqui</button>
+
+    <script>
+      const btn = document.querySelector('button');
+
+      btn.addEventListener('click', () => {
+        let minhaData;
+
+        for (let i = 0; i < 10000000; i++) {
+          let data = new Date();
+          minhaData = data;
+        }
+
+        console.log(minhaData);
+
+        let p = document.createElement('p');
+        p.textContent = 'texto adicionado agora!';
+        document.body.appendChild(p);
+      });
+    </script>
+  </body>
+</html>
